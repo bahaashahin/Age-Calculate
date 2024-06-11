@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <form action="" method="get">
+   <h2>Age</h2>
+   <div class="pr">
+     <div class="block">
+       <p class="title">Day</p>
+       <input type="text" id="day" required placeholder="Day" autofocus>
+     </div>
+     <div class="block">
+       <p class="title">Month</p>
+       <input type="text" id="month" required placeholder="Month" autofocus>
+     </div>
+     <div class="block">
+       <p class="title">Year</p>
+       <input type="text" id="year" required placeholder="Year" autofocus>
+     </div>
+   </div>
+   <button type="button" onclick="age()">Calculate</button>
+   <div class="age" id="age"></div>
+ </form>
+ <script src="main.js"></script>
+</body>
+</html>
