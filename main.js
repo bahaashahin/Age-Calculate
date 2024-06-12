@@ -22,5 +22,5 @@ function age(){
   let m = get_month - month;
   let y = get_year - year;
   
-  document.getElementById('age').innerHTML = 'Your Age is ' + y + ' Years <br> Next date of birth after ' + m + ' Months and ' + d + ' days';
+  document.getElementById('age').innerHTML = 'Your Age is ' + y + ' Years <br> And ' + m + ' Months and ' + d + ' days';
 }
