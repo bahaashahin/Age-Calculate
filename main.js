@@ -3,7 +3,7 @@ function age(){
   let month = document.getElementById('month').value;
   let year = document.getElementById('year').value;
   
-  let date = new Date(); // Capitalize the "D" in "Date"
+  let date = new Date(); 
   let get_day = date.getDate();
   let get_month = 1 + date.getMonth();
   let get_year = date.getFullYear();
